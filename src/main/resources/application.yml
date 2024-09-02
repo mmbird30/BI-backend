@@ -99,4 +99,4 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.mmbird.springbootinit.controller
+          - com.mmbird.bi.controller
