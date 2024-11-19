@@ -96,6 +96,12 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+        <!--https://open.bigmodel.cn/dev/api/normal-model/glm-4-->
+        <dependency>
+            <groupId>cn.bigmodel.openapi</groupId>
+            <artifactId>oapi-java-sdk</artifactId>
+            <version>release-V4-2.0.2</version>
+        </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -115,6 +121,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!--https://github.com/redisson/redisson-->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.21.3</version>
         </dependency>
     </dependencies>
 

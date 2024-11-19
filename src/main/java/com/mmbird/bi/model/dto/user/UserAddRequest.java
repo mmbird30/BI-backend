@@ -27,7 +27,7 @@ public class UserAddRequest implements Serializable {
     private String userAvatar;
 
     /**
-     * 用户角色: user, admin
+     * 用户角色: user / admin
      */
     private String userRole;
 
